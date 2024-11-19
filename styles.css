@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #3b7d3b;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+/* Navigation */
+nav {
+    background: #285428;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+section h2 {
+    margin-top: 0;
+    color: #3b7d3b;
+}
+
+/* Resources */
+ul {
+    padding: 0;
+    list-style-type: square;
+}
+ul li a {
+    color: #3b7d3b;
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea, button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background: #3b7d3b;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background: #285428;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #3b7d3b;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
